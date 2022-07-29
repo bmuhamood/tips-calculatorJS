@@ -18,3 +18,11 @@ const increasePeople = () => {
   numberOfPeopleDiv.innerText = numberOfPeople;
   calculateBill();
 }
+
+const decreasePeople = () => {
+  if (numberOfPeople > 1) {
+    numberOfPeople -= 1;
+    numberOfPeopleDiv.innerText = numberOfPeople;
+    calculateBill();
+  }
+}
