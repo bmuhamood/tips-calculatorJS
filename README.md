@@ -1,16 +1,18 @@
 # tips-calculatorJS
-/* 
+
 🌟 APP: Tip Calculator
 
-These are the 3 functions you must use 👇
+``These are the 3 functions you must use 👇``
 ========================================
 calculateBill()
+
 increasePeople()
+
 decreasePeople()
 
 These functions are hard coded in the HTML. So, you can't change their names.
 
-These are all the DIV ID's you're gonna need access to 👇
+``These are all the DIV ID's you're gonna need access to 👇``
 ========================================================
 #1 ID 👉 'billTotalInput' = User input for bill total.
 
@@ -19,37 +21,40 @@ These are all the DIV ID's you're gonna need access to 👇
 #3 ID 👉 'numberOfPeople' = Current number of people you're splitting the bill between
 
 #4 ID 👉 'perPersonTotal' = Total dollar value owed per person
+========================================================
+- Get global access to all inputs / divs here (you'll need them later 😘)
+- bill input, tip input, number of people div, and per person total div
 
-*/
+- Get number of people from number of people div
 
-// Get global access to all inputs / divs here (you'll need them later 😘)
-// bill input, tip input, number of people div, and per person total div
+- get bill from user input & convert it into a number
 
-// Get number of people from number of people div
+- get the tip from user & convert it into a percentage (divide by 100)
 
-// get bill from user input & convert it into a number
+- get the total tip amount
 
-// get the tip from user & convert it into a percentage (divide by 100)
+- calculate the total (tip amount + bill)
 
-// get the total tip amount
-// calculate the total (tip amount + bill)
-// calculate the per person total (total divided by number of people)
-// update the perPersonTotal on DOM & show it to user
+- calculate the per person total (total divided by number of people)
 
-// ** Splits the bill between more people **
-// increment the amount
+- update the perPersonTotal on DOM & show it to user
 
-// update the DOM with the new number of people
+`Splits the bill between more people`
+- increment the amount
 
-// calculate the bill based on the new number of people
+- update the DOM with the new number of people
 
-// ** Splits the bill between fewer people **
-// guard clause
-// if amount is 1 or less simply return
-// (a.k.a you can't decrease the number of people to 0 or negative!)
+- calculate the bill based on the new number of people
 
-// decrement the amount
+`Splits the bill between fewer people`
+- guard clause
 
-// update the DOM with the new number of people
+- if amount is 1 or less simply return
 
-// calculate the bill based on the new number of people
+- (a.k.a you can't decrease the number of people to 0 or negative!)
+
+- decrement the amount
+
+- update the DOM with the new number of people
+
+- calculate the bill based on the new number of people
