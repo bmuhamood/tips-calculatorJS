@@ -1,4 +1,4 @@
-# tips-calculatorJS
+# Javascript Tips-Calculator
 
 🌟 APP: Tip Calculator
 
