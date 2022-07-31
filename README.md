@@ -2,6 +2,10 @@
 
 🌟 APP: Tip Calculator
 
+``Live Demo``
+
+<a href="https://loquacious-heliotrope-bba615.netlify.app/">Live Demo</a>
+
 ``These are the 3 functions you must use 👇``
 ========================================
 calculateBill()
